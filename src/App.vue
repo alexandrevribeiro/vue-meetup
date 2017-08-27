@@ -18,7 +18,7 @@
     <v-toolbar dark class="primary">
       <v-toolbar-side-icon 
         @click.stop="showSideNav = !showSideNav"
-        class="hidden-sm-and-up"></v-toolbar-side-icon>
+        class="hidden-sm-and-down"></v-toolbar-side-icon>
 
       <v-toolbar-title>
         <router-link to="/" tag="span" style="cursor: pointer;">Meetup</router-link>        
