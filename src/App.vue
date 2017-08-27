@@ -14,7 +14,7 @@
 
     <v-toolbar dark class="primary">
       <v-toolbar-side-icon 
-        @click.native.stop="showSideNav = !showSideNav"
+        @click.stop="showSideNav = !showSideNav"
         class="hidden-sm-and-up"></v-toolbar-side-icon>
       <v-toolbar-title>Meetup</v-toolbar-title>      
       <v-spacer></v-spacer>
